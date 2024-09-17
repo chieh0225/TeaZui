@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/variables";
+@import "../../node_modules/bootstrap";
+
+// base
+@import "./base/base.scss";
+
+// layout
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+// pages
+@import "./pages/index.scss";

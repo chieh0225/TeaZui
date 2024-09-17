@@ -1,0 +1,36 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  // text-decoration: none; //已設定 $link-decoration: none
+  color: inherit;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // margin-bottom: 0;
+  letter-spacing: 0.02em;
+}
+
+p {
+  // margin-bottom: 0;
+  letter-spacing: 0.02em; //em 以目前 p 標籤的文字大小做計算
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.object-fit {
+  object-fit: cover;
+}
