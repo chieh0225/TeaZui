@@ -1,4 +1,22 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer {
+  img {
+    width: 191px;
+    height: 125px;
+  }
+  .list {
+    writing-mode: vertical-lr;
+    @include desktop {
+      writing-mode: horizontal-tb;
+    }
+  }
+  .social-links a {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+  .copyright {
+    @include desktop {
+      width: 100%;
+    }
+  }
 }
