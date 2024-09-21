@@ -1,0 +1,13 @@
+.navbar {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-image: url(/assets/images/bg-main.png);
+  background-size: contain;
+
+  .nav-link {
+    color: #262626;
+  }
+  .nav-link:hover {
+    color: #866654;
+  }
+}
