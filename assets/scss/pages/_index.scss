@@ -1,21 +1,47 @@
-.banner {
+.header {
+  .nav-index {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    @include desktop {
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+    .nav-link {
+      color: #262626;
+    }
+    .nav-link:hover {
+      color: #866654;
+    }
+  }
+
   &-bg {
-    background-image: url(/assets/images/banner.png);
+    background-image: url(/assets/images/banner2.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
+
+    @include desktop {
+      background-image: url(/assets/images/banner.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
   h1 {
     font-size: 24px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-
     @include desktop {
-      font-size: 55px;
-      margin-top: 72px;
-      margin-bottom: 72px;
+      font-size: 50px;
+      letter-spacing: 0.15em;
+    }
+  }
+  .ml {
+    @include desktop {
+      margin-left: 73.6px;
+    }
+  }
+
+  .title {
+    padding-top: 16px;
+    padding-bottom: 40px;
+    @include desktop {
+      padding-top: 72px;
     }
   }
 }

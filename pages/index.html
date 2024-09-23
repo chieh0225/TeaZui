@@ -7,117 +7,137 @@
     <title>茶醉 TEA ZUI</title>
   </head>
   <body>
-    <%- include('./layout/header'); -%>
-    <section class="banner banner-bg">
-      <div class="container">
-        <div class="row justify-content-end align-items-center">
-          <div class="col-6">
-            <h1>
-              茶醉，<br />&nbsp;&nbsp;&nbsp;讓味蕾去旅行<br /><br />茶醉，<br />&nbsp;&nbsp;&nbsp;感受手作的溫度
-            </h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="container quality-intr my-10">
-      <div class="row d-lg-flex flex-lg-row-reverse">
-        <div
-          class="col-12 fw-bold d-flex flex-column align-items-center col-lg-7"
-        >
-          <img class="mb-9" src="/assets/images/tea.png" alt="tea" />
-        </div>
-        <div
-          class="col-12 fw-bold d-flex flex-column align-items-center justify-content-center col-lg-5"
-        >
-          <h2 class="text-primary-main mb-4">精選產地，匠心工藝</h2>
-          <p class="mb-4">嚴格品質控制，保證新鮮</p>
-          <p class="mb-4">多樣品種，無限選擇</p>
-          <p class="mb-11">自然健康，舒心享受</p>
-        </div>
-      </div>
-      <div class="row fw-bold">
-        <div class="col-12 d-flex flex-column align-items-center col-lg-7">
-          <img class="mb-9" src="/assets/images/cow.png" alt="cow" />
-        </div>
-        <div
-          class="col-12 d-flex flex-column align-items-center justify-content-center col-lg-5"
-        >
-          <h2 class="text-second-400 mb-4">來自大自然的恩賜</h2>
-          <p class="mb-4">新鮮直送，保證品質</p>
-          <p class="mb-4">營養豐富，健康首選</p>
-          <p class="mb-4">口感濃郁，香滑順口</p>
-        </div>
-      </div>
-    </section>
-
-    <hr />
-    <i data-feather="shopping-cart"></i>
-    <i data-feather="user"></i>
-    <i data-feather="phone"></i>
-    <i data-feather="mail"></i>
-    <i data-feather="menu"></i>
-    <i data-feather="close"></i>
-    <i data-feather="chevron-left"></i>
-    <i data-feather="chevron-right"></i>
-
-    <i class="fa-brands fa-square-facebook"></i>
-    <i class="fa-brands fa-line"></i>
-    <i class="fa-brands fa-square-instagram"></i>
-    <i class="bi bi-line"></i>
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit,
-          iusto odio assumenda alias id nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-    >
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
+    <section class="header header-bg">
+      <nav class="navbar navbar-expand-lg nav-index">
+        <div class="container">
+          <div class="container-fluid d-lg-flex">
+            <div class="position-relative">
+              <div class="d-flex align-items-center">
+                <div>
+                  <a class="navbar-brand" href="#">
+                    <picture>
+                      <source
+                        srcset="/assets/images/logo-sm.png"
+                        media="(max-width: 992px)"
+                      />
+                      <img src="/assets/images/logo.png" alt="logo" />
+                    </picture>
+                  </a>
+                </div>
+              </div>
+              <button
+                class="navbar-toggler position-absolute top-50 end-0 translate-middle-y"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between w-100"
             >
-              關閉
-            </button>
-            <button type="button" class="btn btn-primary">確定</button>
+              <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarNavAltMarkup"
+              >
+                <div class="navbar-nav text-center fs-6 fw-bold">
+                  <a
+                    class="nav-link px-4 py-2 my-5"
+                    aria-current="page"
+                    href="#"
+                    >品牌介紹</a
+                  >
+                  <a class="nav-link px-4 py-2 my-5" href="#">飲品菜單</a>
+                  <a class="nav-link px-4 py-2 my-5" href="#">最新消息</a>
+                  <a class="nav-link px-4 py-2 my-5" href="#">門市據點</a>
+                  <a class="nav-link px-4 py-2 my-5" href="#">線上寄杯</a>
+                  <div class="d-flex d-lg-none justify-content-center my-5">
+                    <a href="#" class="px-3 py-2"
+                      ><i
+                        data-feather="user"
+                        style="width: 20px; height: 20px"
+                      ></i
+                    ></a>
+                    <a href="#" class="position-relative mx-3 my-2"
+                      ><i
+                        data-feather="shopping-cart"
+                        style="width: 20px; height: 20px"
+                      ></i>
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-1"
+                        >99</span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex d-lg-block d-none">
+                <a href="#" class="p-3"
+                  ><i data-feather="user" style="width: 20px; height: 20px"></i
+                ></a>
+                <a href="#" class="position-relative m-3"
+                  ><i
+                    data-feather="shopping-cart"
+                    style="width: 20px; height: 20px"
+                  ></i>
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-1"
+                    >99</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="row justify-content-end align-items-center title">
+        <div class="col-6">
+          <h1 class="text-primary-main fw-bold">茶醉，</h1>
+          <h1 class="ml mb-4 mb-lg-11 fw-bold">讓味蕾去旅行</h1>
+          <h1 class="text-second-400 fw-bold">茶醉，</h1>
+          <h1 class="ml fw-bold">感受手作的溫度</h1>
+        </div>
+      </div>
+    </section>
+    <section class="quality-intr py-10 bg-white">
+      <div class="container">
+        <div class="row d-lg-flex flex-lg-row-reverse">
+          <div
+            class="col-12 fw-bold d-flex flex-column align-items-center col-lg-7"
+          >
+            <img class="mb-9" src="/assets/images/tea.png" alt="tea" />
+          </div>
+          <div
+            class="col-12 fw-bold d-flex flex-column align-items-center justify-content-center col-lg-5"
+          >
+            <h2 class="text-primary-main mb-4">精選產地，匠心工藝</h2>
+            <p class="mb-4">嚴格品質控制，保證新鮮</p>
+            <p class="mb-4">多樣品種，無限選擇</p>
+            <p class="mb-11">自然健康，舒心享受</p>
+          </div>
+        </div>
+        <div class="row fw-bold">
+          <div class="col-12 d-flex flex-column align-items-center col-lg-7">
+            <img class="mb-9" src="/assets/images/cow.png" alt="cow" />
+          </div>
+          <div
+            class="col-12 d-flex flex-column align-items-center justify-content-center col-lg-5"
+          >
+            <h2 class="text-second-400 mb-4">來自大自然的恩賜</h2>
+            <p class="mb-4">新鮮直送，保證品質</p>
+            <p class="mb-4">營養豐富，健康首選</p>
+            <p class="mb-4">口感濃郁，香滑順口</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="sent sent-bg">
+      <div class="container"></div>
+    </section>
 
     <hr />
     <%- include('./layout/footer'); -%>
