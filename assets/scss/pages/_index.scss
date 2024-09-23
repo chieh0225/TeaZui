@@ -19,3 +19,18 @@
     }
   }
 }
+
+.quality-intr {
+  h2 {
+    font-size: 24px;
+    @include desktop {
+      font-size: 40px;
+    }
+  }
+  p {
+    font-size: 24px;
+    @include desktop {
+      font-size: 40px;
+    }
+  }
+}
