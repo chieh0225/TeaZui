@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>線上寄杯</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <section class="bg-brown">
+      <div
+        class="d-flex gap-lg-6 pt-lg-12 pb-lg-12 px-lg-0 shopping-guide container"
+      >
+        <picture>
+          <source
+            srcset="../assets/images/shopping-guide-sm.png"
+            media="(max-width: 992px)"
+          />
+          <img src="../assets/images/shopping-guide.png" alt="logo" />
+        </picture>
+        <div class="d-flex flex-column gap-lg-6 px-lg-9 shopping-guide-info">
+          <h1 class="text-second-400">購物須知</h1>
+          <ol>
+            <li>1. 請出示票券給服務人員作核銷，每張票券限使用一次</li>
+            <li>2. 票券不得加價加料</li>
+            <li>3. 票券可轉贈</li>
+            <li>4. 票券使用期限為90天</li>
+            <li>5. 若購買「自備環保杯寄杯票券」，兌換時務必「自備環保杯」</li>
+            <li>6. 本券不得與其他優惠合併使用</li>
+            <li>7. 本券於發售時已開立發票，兌換商品時不再開立發票</li>
+            <li>8. 本券禁止轉售、經塗改變造、偽造者無效，並依法追究</li>
+            <li>9. 茶醉保有修改內容之權力</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

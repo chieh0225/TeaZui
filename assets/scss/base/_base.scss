@@ -1,6 +1,10 @@
 body {
   background-image: url(/assets/images/bg-main.png);
 }
+.bg-brown {
+  background-image: url(/assets/images/bg-brown.png);
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -27,6 +31,7 @@ p {
   letter-spacing: 0.05em; //em 以目前 p 標籤的文字大小做計算
 }
 
+ol,
 ul,
 li {
   margin: 0;
