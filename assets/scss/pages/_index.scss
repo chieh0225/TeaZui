@@ -60,3 +60,23 @@
     }
   }
 }
+
+.newProduct {
+  h3 {
+    font-size: 20px;
+    @include desktop {
+      font-size: 32px;
+    }
+  }
+  p {
+    font-size: 20px;
+  }
+  .container {
+    position: relative;
+  }
+  .left {
+    position: absolute;
+    left: 65%;
+    top: -10px;
+  }
+}
