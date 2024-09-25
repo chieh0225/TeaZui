@@ -90,3 +90,16 @@
     z-index: 1;
   }
 }
+
+.sent {
+  .container {
+    padding-top: 145px;
+    padding-bottom: 145px;
+  }
+  h4 {
+    font-size: 20px;
+    @include desktop {
+      font-size: 40px;
+    }
+  }
+}
