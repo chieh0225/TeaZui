@@ -2,6 +2,52 @@
   .shopping-guide-info ol > li {
     font-size: 16px;
     line-height: 27.2px !important;
-    letter-spacing: 2%;
+    letter-spacing: 0.02;
+  }
+}
+
+.storage-regular {
+  svg,
+  h3 {
+    color: $primary-main !important;
+  }
+  &-title {
+    padding: 8px 80px;
+    background-color: #7171711a;
+    border-radius: 80px;
+  }
+}
+.storage-regular-list {
+  display: flex;
+  .storage-regular-items {
+    border: 1px solid #866654;
+    img {
+      background-color: #fafafa;
+    }
+    .card {
+      background-color: transparent;
+    }
+  }
+  .btn:hover {
+    border-color: unset; /* 取消邊框顏色的設定 */
+  }
+}
+
+.card-reset {
+  .card {
+    border-radius: 0 !important;
+  }
+  .card-title {
+    margin-bottom: 0;
+  }
+}
+.card-buy-btn-primary {
+  border: 1px solid #866654;
+  padding: 4px;
+  p {
+    letter-spacing: 0.02;
+    color: #fafafa;
+    padding: 12px 0px;
+    background-color: #866654;
   }
 }
