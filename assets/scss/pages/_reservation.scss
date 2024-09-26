@@ -27,6 +27,39 @@
     .card {
       background-color: transparent;
     }
+    .card-img-top {
+      border-radius: unset;
+    }
+  }
+  .btn:hover {
+    border-color: unset; /* 取消邊框顏色的設定 */
+  }
+}
+
+.storage-reusable {
+  svg,
+  h3 {
+    color: $second-400 !important;
+  }
+  &-title {
+    padding: 8px 80px;
+    background-color: #7171711a;
+    border-radius: 80px;
+  }
+}
+.storage-reusable-list {
+  display: flex;
+  .storage-reusable-items {
+    border: 1px solid #496a54;
+    img {
+      background-color: #fafafa;
+    }
+    .card {
+      background-color: transparent;
+    }
+    .card-img-top {
+      border-radius: unset;
+    }
   }
   .btn:hover {
     border-color: unset; /* 取消邊框顏色的設定 */
@@ -41,6 +74,7 @@
     margin-bottom: 0;
   }
 }
+
 .card-buy-btn-primary {
   border: 1px solid #866654;
   padding: 4px;
@@ -49,5 +83,15 @@
     color: #fafafa;
     padding: 12px 0px;
     background-color: #866654;
+  }
+}
+.card-buy-btn-second {
+  border: 1px solid #496a54;
+  padding: 4px;
+  p {
+    letter-spacing: 0.02;
+    color: #fafafa;
+    padding: 12px 0px;
+    background-color: #496a54;
   }
 }
