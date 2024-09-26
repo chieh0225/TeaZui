@@ -1,8 +1,9 @@
 .shopping-guide {
   .shopping-guide-info ol > li {
+    color: #262626;
     font-size: 16px;
     line-height: 27.2px !important;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
   }
 }
 
@@ -15,6 +16,9 @@
     padding: 8px 80px;
     background-color: #7171711a;
     border-radius: 80px;
+    h3 {
+      letter-spacing: 0.05em;
+    }
   }
 }
 .storage-regular-list {
@@ -29,6 +33,9 @@
     }
     .card-img-top {
       border-radius: unset;
+    }
+    .card-title {
+      letter-spacing: 0.05em;
     }
   }
   .btn:hover {
@@ -45,6 +52,9 @@
     padding: 8px 80px;
     background-color: #7171711a;
     border-radius: 80px;
+    h3 {
+      letter-spacing: 0.05em;
+    }
   }
 }
 .storage-reusable-list {
@@ -59,6 +69,9 @@
     }
     .card-img-top {
       border-radius: unset;
+    }
+    .card-title {
+      letter-spacing: 0.05em;
     }
   }
   .btn:hover {
@@ -75,11 +88,15 @@
   }
 }
 
+.item-tag {
+  letter-spacing: 0.02em;
+}
+
 .card-buy-btn-primary {
   border: 1px solid #866654;
   padding: 4px;
   p {
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #fafafa;
     padding: 12px 0px;
     background-color: #866654;
@@ -89,7 +106,7 @@
   border: 1px solid #496a54;
   padding: 4px;
   p {
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #fafafa;
     padding: 12px 0px;
     background-color: #496a54;
