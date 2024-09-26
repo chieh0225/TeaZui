@@ -106,3 +106,21 @@
     }
   }
 }
+
+// button-main
+.btn-index-main {
+  width: auto;
+  border: 1px solid #866654;
+  padding: 8px;
+  width: 174px;
+  p {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #fafafa;
+    padding: 10px 0px;
+    background-color: #866654;
+  }
+}
+.btn-index-main:hover {
+  border-color: transparent;
+}
