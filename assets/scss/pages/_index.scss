@@ -91,6 +91,28 @@
   }
 }
 
+.threeChooses {
+  background-color: rgba(73, 106, 84, 0.7);
+  border-radius: 60px 0 0 60px;
+
+  h4 {
+    left: 20px;
+    bottom: 30px;
+  }
+  h5 {
+    font-size: 28px;
+    @include desktop {
+      font-size: 48px;
+    }
+  }
+
+  .drinkImg {
+    border-radius: 120px;
+    background-color: white;
+    padding: 24px 32px;
+  }
+}
+
 .sent {
   background-image: url(/assets/images/background-white.png);
   background-repeat: no-repeat;
