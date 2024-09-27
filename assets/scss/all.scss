@@ -11,6 +11,9 @@
 
 // utils
 @import "./utils/mixins";
+@import "./utils/utilities";
+
+@import "bootstrap/scss/utilities/api";
 
 // layout
 @import "./layout/header.scss";
