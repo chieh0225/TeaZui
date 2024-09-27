@@ -92,11 +92,14 @@
 }
 
 .threeChooses {
-  margin-top: 400px;
-  background-image: url(/assets/images/bg-green.png);
-  background-size: 95% 100%;
-  background-position: center right;
-  background-repeat: no-repeat;
+  background-image: url(/assets/images/bg-brown.png);
+  @include desktop {
+    margin-top: 400px;
+    background-image: url(/assets/images/bg-green.png);
+    background-size: 95% 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
   .bg-setting {
     margin-top: -200px;
   }
@@ -120,21 +123,6 @@
   }
 }
 
-// .sent {
-//   background-image: url(/assets/images/background-white.png);
-//   background-repeat: no-repeat;
-//   background-position: center left;
-//   .container {
-//     padding-top: 145px;
-//     padding-bottom: 145px;
-//   }
-//   h4 {
-//     font-size: 20px;
-//     @include desktop {
-//       font-size: 40px;
-//     }
-//   }
-// }
 .sent {
   background-image: url(/assets/images/bg-allwhite.png);
   @include desktop {

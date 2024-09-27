@@ -149,7 +149,6 @@
           src="/assets/images/leaf-3.svg"
           alt="leaf"
         />
-
         <div class="row d-flex align-items-center">
           <div
             class="col-6 d-flex justify-content-center align-items-center d-lg-none"
@@ -193,7 +192,7 @@
               夏日經典風味 Q彈新潮呈現
             </h3>
             <div
-              class="bg-white text-center rounded-4 py-9 text-lg-start ps-lg-10"
+              class="bg-white text-center rounded-4 py-9 text-lg-start ps-lg-10 mb-10"
             >
               <div class="mb-2">
                 <p class="d-inline-block text-neutral-800">芒果烏龍</p>
@@ -218,7 +217,8 @@
       </div>
     </section>
     <section class="threeChooses">
-      <div class="container">
+      <!-- pc -->
+      <div class="container d-lg-block d-none">
         <div class="row">
           <div class="col-4">
             <div
@@ -242,9 +242,11 @@
                   alt="Buckwheat milk tea"
                 />
               </div>
-              <div class="text-center fw-bold text-white">
+              <div
+                class="fw-bold text-white d-flex flex-column align-items-center"
+              >
                 <p class="fs-4 mt-8 mb-3">蕎麥加奶茶，創造出新滋味!</p>
-                <p class="fs-6">
+                <p class="fs-6 text-center" style="width: 336px">
                   將濃郁奶茶與香脆蕎麥完美結合，每一口都是健康與美味的交響曲
                 </p>
               </div>
@@ -272,9 +274,13 @@
                   alt="BGreen tea and oolong"
                 />
               </div>
-              <div class="text-center fw-bold text-white">
+              <div
+                class="fw-bold text-white d-flex flex-column align-items-center"
+              >
                 <p class="fs-4 mt-8 mb-3">細品，每一口都是悠然時光！</p>
-                <p class="fs-6">獨特的奶香和果香交織，帶來柔順醇厚的茶湯</p>
+                <p class="fs-6 text-center" style="width: 336px">
+                  獨特的奶香和果香交織，帶來柔順醇厚的茶湯
+                </p>
               </div>
             </div>
           </div>
@@ -300,69 +306,156 @@
                   alt="honey lemon tea"
                 />
               </div>
-              <div class="text-center fw-bold text-white">
+              <div
+                class="fw-bold text-white d-flex flex-column align-items-center"
+              >
                 <p class="fs-4 mt-8 mb-3">用酸酸甜甜的滋味迎接每一刻！</p>
-                <p class="fs-6">
+                <p class="fs-6 text-center" style="width: 336px">
                   清新檸檬與天然蜂蜜的完美融合，帶來酸甜可口的滋味
                 </p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <!-- mobile -->
+      <div class="container d-lg-none">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner py-10">
+            <div class="carousel-item active">
+              <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                  <h4 class="position-absolute text-primary-main">
+                    今天想來杯奶茶！
+                  </h4>
+                  <img src="/assets/images/Vector.png" alt="dialog box" />
+                  <img
+                    class="position-absolute top-100 end-50 translate-middle-y"
+                    src="/assets/images/Vector (1).png"
+                    alt="dialog box"
+                  />
+                </div>
 
-          <!-- <div
-            class="col-4 d-flex flex-column justify-content-center align-items-center bg-settin"
-          >
-            <div class="position-relative">
-              <h4 class="position-absolute text-primary-main">
-                今天想來杯純粹！
-              </h4>
-              <img src="/assets/images/Vector.png" alt="dialog box" />
-              <img
-                class="position-absolute top-100 start-50 translate-middle-y"
-                src="/assets/images/Vector (1).png"
-                alt="dialog box"
-              />
+                <div
+                  style="width: 239px"
+                  class="drinkImg d-flex flex-column align-items-center"
+                >
+                  <h5 class="pb-5">蕎麥奶茶</h5>
+                  <img
+                    src="/assets/images/drink-1-w240.png"
+                    alt="Buckwheat milk tea"
+                  />
+                </div>
+                <div class="fw-bold d-flex flex-column align-items-center">
+                  <p class="fs-4 mt-8 mb-3 text-neutral-800">
+                    蕎麥加奶茶，創造出新滋味!
+                  </p>
+                  <p
+                    class="fs-6 text-center text-primary-main"
+                    style="width: 320px"
+                  >
+                    將濃郁奶茶與香脆蕎麥完美結合，每一口都是健康與美味的交響曲。
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="drinkImg">
-              <h5 class="text-center">金萱烏龍</h5>
-              <img
-                src="/assets/images/drink-2-w240.png"
-                alt="BGreen tea and oolong"
-              />
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                  <h4 class="position-absolute text-primary-main">
+                    今天想來杯純粹！
+                  </h4>
+                  <img src="/assets/images/Vector.png" alt="dialog box" />
+                  <img
+                    class="position-absolute top-100 end-50 translate-middle-y"
+                    src="/assets/images/Vector (1).png"
+                    alt="dialog box"
+                  />
+                </div>
+
+                <div
+                  style="width: 239px"
+                  class="drinkImg d-flex flex-column align-items-center"
+                >
+                  <h5 class="pb-5">金萱烏龍</h5>
+                  <img
+                    src="/assets/images/drink-2-w240.png"
+                    alt="BGreen tea and oolong"
+                  />
+                </div>
+                <div class="fw-bold d-flex flex-column align-items-center">
+                  <p class="fs-4 mt-8 mb-3 text-neutral-800">
+                    細品，每一口都是悠然時光！!
+                  </p>
+                  <p
+                    class="fs-6 text-center text-primary-main"
+                    style="width: 320px"
+                  >
+                    獨特的奶香和果香交織，帶來柔順醇厚的茶湯。
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="text-center fw-bold text-white">
-              <p>細品，每一口都是悠然時光！</p>
-              <p>獨特的奶香和果香交織，帶來柔順醇厚的茶湯</p>
-              <br />
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                  <h4 class="position-absolute text-primary-main">
+                    今天想來杯鮮粹！
+                  </h4>
+                  <img src="/assets/images/Vector.png" alt="dialog box" />
+                  <img
+                    class="position-absolute top-100 end-50 translate-middle-y"
+                    src="/assets/images/Vector (1).png"
+                    alt="dialog box"
+                  />
+                </div>
+
+                <div
+                  style="width: 239px"
+                  class="drinkImg d-flex flex-column align-items-center"
+                >
+                  <h5 class="pb-5">蜂蜜檸檬</h5>
+                  <img
+                    src="/assets/images/drink-3-w240.png"
+                    alt="honey lemon tea"
+                  />
+                </div>
+                <div class="fw-bold d-flex flex-column align-items-center">
+                  <p class="fs-4 mt-8 mb-3 text-neutral-800">
+                    用酸酸甜甜的滋味迎接每一刻！!
+                  </p>
+                  <p
+                    class="fs-6 text-center text-primary-main"
+                    style="width: 320px"
+                  >
+                    清新檸檬與天然蜂蜜的完美融合，帶來酸甜可口的滋味。
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div
-            class="col-4 d-flex flex-column justify-content-center align-items-center bg-settin"
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
           >
-            <div class="position-relative">
-              <h4 class="position-absolute text-primary-main">
-                今天想來杯鮮粹！
-              </h4>
-              <img src="/assets/images/Vector.png" alt="dialog box" />
-              <img
-                class="position-absolute top-100 start-50 translate-middle-y"
-                src="/assets/images/Vector (1).png"
-                alt="dialog box"
-              />
-            </div>
-            <div class="drinkImg mt-6">
-              <h5 class="text-center">蜂蜜檸檬</h5>
-              <img
-                src="/assets/images/drink-3-w240.png"
-                alt="honey lemon tea"
-              />
-            </div>
-            <div class="text-center fw-bold text-white">
-              <p>用酸酸甜甜的滋味迎接每一刻！</p>
-              <p>清新檸檬與天然蜂蜜的完美融合，帶來酸甜可口的滋味</p>
-              <br />
-            </div>
-          </div> -->
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
@@ -396,6 +489,7 @@
     </section>
 
     <hr />
+
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
