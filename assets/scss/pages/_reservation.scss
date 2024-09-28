@@ -37,6 +37,12 @@
     .card-title {
       letter-spacing: 0.05em;
     }
+    .font-lora h6 {
+      color: #262626;
+    }
+    .font-lora small {
+      color: #525252;
+    }
   }
   .btn:hover {
     border-color: unset; /* 取消邊框顏色的設定 */
@@ -93,8 +99,12 @@
 }
 
 .card-buy-btn-primary {
-  border: 1px solid #866654;
-  padding: 4px;
+  border: unset;
+  padding: 0;
+  @include media-breakpoint-up(md) {
+    border: 1px solid #866654;
+    padding: 4px;
+  }
   p {
     letter-spacing: 0.02em;
     color: #fafafa;
@@ -103,8 +113,12 @@
   }
 }
 .card-buy-btn-second {
-  border: 1px solid #496a54;
-  padding: 4px;
+  border: unset;
+  padding: 0;
+  @include media-breakpoint-up(md) {
+    border: 1px solid #496a54;
+    padding: 4px;
+  }
   p {
     letter-spacing: 0.02em;
     color: #fafafa;
