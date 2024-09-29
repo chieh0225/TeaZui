@@ -13,11 +13,16 @@
     color: $primary-main !important;
   }
   &-title {
-    padding: 8px 80px;
+    width: calc(100% - 32px);
+    padding: 4px 0px;
     background-color: #7171711a;
     border-radius: 80px;
     h3 {
       letter-spacing: 0.05em;
+    }
+    @include media-breakpoint-up(md) {
+      width: auto;
+      padding: 8px 80px;
     }
   }
 }
@@ -55,11 +60,16 @@
     color: $second-400 !important;
   }
   &-title {
-    padding: 8px 80px;
+    width: calc(100% - 32px);
+    padding: 4px 0px;
     background-color: #7171711a;
     border-radius: 80px;
     h3 {
       letter-spacing: 0.05em;
+    }
+    @include media-breakpoint-up(md) {
+      width: auto;
+      padding: 8px 80px;
     }
   }
 }
