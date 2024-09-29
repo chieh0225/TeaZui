@@ -35,6 +35,7 @@
     }
     .card {
       background-color: transparent;
+      border: 0;
     }
     .card-img-top {
       border-radius: unset;
@@ -47,6 +48,9 @@
     }
     .font-lora small {
       color: #525252;
+    }
+    .btn-wrapper {
+      padding: 0px 8px 8px 8px;
     }
   }
   .btn:hover {
@@ -82,12 +86,16 @@
     }
     .card {
       background-color: transparent;
+      border: 0;
     }
     .card-img-top {
       border-radius: unset;
     }
     .card-title {
       letter-spacing: 0.05em;
+    }
+    .btn-wrapper {
+      padding: 0px 8px 8px 8px;
     }
   }
   .btn:hover {
