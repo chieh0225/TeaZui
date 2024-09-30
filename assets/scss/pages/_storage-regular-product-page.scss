@@ -1,0 +1,21 @@
+.more-drinks {
+  .storage-regular {
+    padding: 40px 0px;
+    @include media-breakpoint-up(lg) {
+      padding: 80px 0px;
+    }
+  }
+  .storage-regular-list {
+    padding: 0px 60px;
+    @include media-breakpoint-up(sm) {
+      padding: 0px 80px;
+    }
+  }
+  .storage-regular-title {
+    width: auto;
+    padding: 8px 24px;
+    @include media-breakpoint-up(lg) {
+      padding: 8px 80px;
+    }
+  }
+}
