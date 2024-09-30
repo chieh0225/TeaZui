@@ -39,12 +39,8 @@
 }
 
 .custom-btn-white {
-  border: unset;
-  padding: 0;
-  @include media-breakpoint-up(md) {
-    border: 1px solid #fafafa;
-    padding: 4px;
-  }
+  border: 1px solid #fafafa;
+  padding: 8px;
   h6 {
     font-weight: 700;
     letter-spacing: 0.02em;
