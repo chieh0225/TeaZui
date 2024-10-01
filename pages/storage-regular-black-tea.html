@@ -9,7 +9,7 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <section class="bg-brown">
+    <section>
       <div class="py-lg-12 py-6 px-0 shopping-guide container">
         <div class="row m-0">
           <div
@@ -55,6 +55,79 @@
     </section>
 
     <!-- 商品介紹 -->
+    <section class="bg-brown">
+      <div
+        class="pt-lg-11 pt-0 pb-lg-11 pb-9 px-lg-0 px-3 product-section container"
+      >
+        <ul
+          class="nav nav-pills nav-justified gap-3 pt-lg-4 pt-5 pb-4 sticky-top"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active fs-md-6 fs-body fw-bold" href="#pills-home">商品介紹</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link fs-md-6 fs-body fw-bold" href="#pills-profile">付款方式</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link fs-md-6 fs-body fw-bold" href="#pills-contact">注意事項</a>
+          </li>
+        </ul>
+
+        <div
+          class="d-flex flex-column gap-10 py-9 px-lg-9 px-4 product-section-list"
+        >
+          <!-- 商品介紹 -->
+          <div id="pills-home" class="product-section-item">
+            <div class="mb-10">
+              <p class="fw-bold mb-3">商品內容</p>
+              <ul>
+                <li>．茶葉產地：斯里蘭卡</li>
+                <li>．電子票券：五張一組</li>
+                <li>．一張票券, 可兌換：招牌紅茶一杯</li>
+              </ul>
+            </div>
+            <div>
+              <p class="fw-bold mb-3">溫馨提示</p>
+              <ul>
+                <li>．產品圖片僅供參考, 實際產品以各門市販售為準</li>
+                <li>．本產品最佳賞味時間為兩小時</li>
+                <li>．本產品可做溫、熱飲, 熱飲請小心燙口！</li>
+                <li>　響應環保, 各門市配合回收廢一次用飲料杯, 可交門市服務人員回收</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+
+          <!-- 付款方式 -->
+          <div id="pills-profile" class="product-section-item">
+            <p class="fw-bold mb-3">付款方式</p>
+            <p class="mb-10">．信用卡線上刷卡</p>
+            <p>
+              本網站接受一般本國銀行或外國銀行於本國設立分行發行之
+              VISA、Master、JCB、American Express、中國銀聯卡Union Pay 等 5
+              家國際發卡組織之信用卡, 其餘由外國銀行發行之信用卡恕不適用。
+            </p>
+          </div>
+
+          <!-- 注意事項 -->
+          <div id="pills-contact" class="product-section-item">
+            <p class="fw-bold mb-3">注意事項</p>
+            <ol type="1">
+              <li>1. 請出示票券給服務人員作核銷,每張票券限使用一次</li>
+              <li>2. 票券不得加價加料</li>
+              <li>3. 票券可轉贈</li>
+              <li>4. 票券使用期限為 90 天</li>
+              <li>5. 本券不得與其他優惠合併使用</li>
+              <li>6. 本券於發售時已開立發票, 兌換商品時不再開立發票</li>
+              <li>7. 本券禁止轉售、經塗改變造、偽造者無效, 並依法追究</li>
+              <li>8. 茶醉保有修改內容之權力</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- 你可能還想來點 -->
     <div class="more-drinks">
