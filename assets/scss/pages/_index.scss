@@ -51,15 +51,15 @@
 
 .quality-intr {
   h2 {
-    font-size: 24px;
+    font-size: 38px;
     @include desktop {
-      font-size: 40px;
+      font-size: 38px;
     }
   }
   p {
-    font-size: 24px;
+    font-size: 32px;
     @include desktop {
-      font-size: 40px;
+      font-size: 32px;
     }
   }
 }
@@ -67,13 +67,13 @@
 .newProduct {
   h2 {
     @include desktop {
-      font-size: 82px;
+      font-size: 70px;
     }
   }
   h3 {
     font-size: 20px;
     @include desktop {
-      font-size: 32px;
+      font-size: 24px;
     }
   }
   p {
@@ -113,11 +113,10 @@
   h5 {
     font-size: 28px;
     @include desktop {
-      font-size: 48px;
+      font-size: 38px;
     }
   }
-  .col-4 {
-  }
+
   .drinkImg {
     border-radius: 120px;
     background-color: white;
@@ -142,9 +141,9 @@
     padding-bottom: 43px;
   }
   h4 {
-    font-size: 20px;
+    font-size: 30px;
     @include desktop {
-      font-size: 40px;
+      font-size: 30px;
     }
   }
 }
@@ -165,6 +164,7 @@
     }
     h2 {
       max-width: 564px;
+      font-size: 30px;
     }
   }
 }
