@@ -836,6 +836,7 @@ $table-variants: (
   "danger": shift-color($danger, $table-bg-scale),
   "light": $light,
   "dark": $dark,
+  "neutral-200": $neutral-200,
 ) !default;
 // scss-docs-end table-loop
 

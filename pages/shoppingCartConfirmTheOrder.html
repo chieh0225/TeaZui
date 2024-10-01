@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>線上寄杯</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <section class="container">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item text-neutral-800">
+            <a href="#">購物車</a>
+          </li>
+          <li class="breadcrumb-item text-neutral-800">
+            <a href="#">填寫訂購資料</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            確認訂購資訊
+          </li>
+          <li class="breadcrumb-item text-neutral-800">
+            <a href="#">訂購成功</a>
+          </li>
+        </ol>
+      </nav>
+    </section>
+
+    <section class="container order">
+      <div class="row">
+        <div class="col-lg-8 d-lg-block d-none">
+          <table class="table">
+            <thead>
+              <tr class="table-neutral-200 text-center border">
+                <th scope="col">商品</th>
+                <th scope="col">單價</th>
+                <th scope="col">數量/組</th>
+                <th scope="col">總計</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img src="/assets/images/drink-4-w80.svg" alt="black tea" />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span class="fs-6">【五享九五】招牌紅茶</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$190</span>
+                  <del>NT$200</del>
+                </td>
+                <td class="text-center align-middle">1</td>
+                <td class="text-center align-middle">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">190</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img src="/assets/images/drink-2-w80.svg" alt="green tea" />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span class="fs-6">【超值十一】玉露綠茶</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$350</span>
+                  <del>NT$385</del>
+                </td>
+                <td class="text-center align-middle">1</td>
+                <td class="text-center align-middle">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">350</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img
+                    src="/assets/images/drink-5-w80.svg"
+                    alt="Green tea and oolong"
+                  />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span class="fs-6">【超值十一】金萱烏龍</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$350</span>
+                  <del>NT$385</del>
+                </td>
+                <td class="text-center align-middle">1</td>
+                <td class="text-center align-middle">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">350</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-8 d-lg-none">
+          <table class="table">
+            <thead>
+              <tr class="table-neutral-200 text-center border">
+                <th scope="col">商品 (數量/組)</th>
+                <th scope="col">單價</th>
+                <th scope="col" colspan="2">總計</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img src="/assets/images/drink-4-w80.svg" alt="black tea" />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span>【五享九五】招牌紅茶</span>
+                    <span class="d-block ms-2">x1</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle" colspan="2">
+                  <span>NT$190</span>
+                  <del>NT$200</del>
+                </td>
+
+                <td class="text-center align-middle">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">190</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img src="/assets/images/drink-2-w80.svg" alt="green tea" />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span>【超值十一】玉露綠茶</span>
+                    <span class="d-block ms-2">x1</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$350</span>
+                  <del>NT$385</del>
+                </td>
+
+                <td class="text-center align-middle" colspan="2">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">350</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img
+                    src="/assets/images/drink-5-w80.svg"
+                    alt="Green tea and oolong"
+                  />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span>【超值十一】金萱烏龍</span>
+                    <span class="d-block ms-2">x1</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$350</span>
+                  <del>NT$385</del>
+                </td>
+
+                <td class="text-center align-middle" colspan="2">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">350</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <table class="table order-information">
+            <thead>
+              <tr class="table-neutral-200 text-center border">
+                <th scope="col" colspan="2">訂購人資料</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-4">電話：</td>
+                <td class="py-4">0912345678</td>
+              </tr>
+              <tr>
+                <td class="py-4">姓名：</td>
+                <td class="py-4">王小明</td>
+              </tr>
+              <tr>
+                <td class="py-4">E-MAIL：</td>
+                <td class="py-4">abcd1234567@gmail.com</td>
+              </tr>
+              <tr>
+                <td class="py-4">付款方式：</td>
+                <td class="py-4">信用卡</td>
+              </tr>
+              <tr>
+                <td class="py-4">發票方式：</td>
+                <td class="py-4">電子載具(./QV505S)</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table order-information">
+            <thead>
+              <tr class="table-neutral-200 text-center border">
+                <th scope="col" colspan="2">購物金額</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-4">金額</td>
+                <td class="text-end py-4">NT$ 970</td>
+              </tr>
+              <tr>
+                <td class="py-4">折抵</td>
+                <td class="text-end py-4 text-primary-main">NT$ -80</td>
+              </tr>
+              <tr>
+                <td class="py-4">付款總金額</td>
+                <td class="text-end py-4 text-danger">NT$ 890</td>
+              </tr>
+              <tr class="text-center">
+                <td>
+                  <button
+                    type="button"
+                    class="btn rounded-0 btn-shoppingCart-light"
+                  >
+                    <p class="d-flex align-items-center justify-content-center">
+                      上一步
+                    </p>
+                  </button>
+                </td>
+                <td>
+                  <button
+                    type="button"
+                    class="btn rounded-0 btn-shoppingCart-dark"
+                  >
+                    <p class="d-flex align-items-center justify-content-center">
+                      下一步
+                    </p>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
