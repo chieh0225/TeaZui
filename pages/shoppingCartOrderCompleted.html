@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>確認訂購資訊</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <section class="container">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item text-neutral-800">
+            <a href="#">購物車</a>
+          </li>
+          <li class="breadcrumb-item text-neutral-800">
+            <a href="#">填寫訂購資料</a>
+          </li>
+          <li class="breadcrumb-item text-neutral-800">
+            <a href="#">確認訂購資訊</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">訂購成功</li>
+        </ol>
+      </nav>
+    </section>
+    <main class="container d-flex justify-content-center orderCompleted">
+      <div class="col-lg-8">
+        <div class="text-center">
+          <i class="bi bi-check-circle ok text-success"></i>
+          <h1 class="fs-3 fw-bold my-3">訂購成功</h1>
+          <h2 class="fs-5 fw-bold my-4">感謝您的購買!</h2>
+        </div>
+        <table class="table mb-0">
+          <thead>
+            <tr class="table-neutral-200 text-center border">
+              <th scope="col" colspan="2">訂購資料</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="py-4">訂單編號 :</td>
+              <td class="py-4">AZ0899419762</td>
+            </tr>
+            <tr>
+              <td class="py-4">訂單成立 :</td>
+              <td class="py-4">2024-10-10 12:20:03</td>
+            </tr>
+            <tr>
+              <td class="py-4">付款方式 :</td>
+              <td class="py-4">信用卡</td>
+            </tr>
+            <tr>
+              <td class="py-4">付款金額 :</td>
+              <td class="py-4">$ 890</td>
+            </tr>
+            <tr>
+              <td class="py-4">發票方式 :</td>
+              <td class="py-4">電子載具(./QV505S)</td>
+            </tr>
+            <tr>
+              <td class="py-4">發票號碼 :</td>
+              <td class="py-4">AB-12345678</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-danger fw-bold" colspan="2">
+                提醒:票券使用期限為90天!
+              </td>
+            </tr>
+            <tr>
+              <td class="py-4 text-danger fw-bold" colspan="2">
+                茶醉不會以任何理由或方式,要求消費者以ATM進行任何操作,請定期更改密碼確保帳戶安全。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="text-center">
+          <button
+            type="button"
+            class="btn rounded-0 btn-shoppingCart-dark my-6"
+            style="width: 250px"
+          >
+            <a class="d-block" href="reservation.html">
+              <p class="d-flex align-items-center justify-content-center">
+                繼續逛逛
+              </p></a
+            >
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

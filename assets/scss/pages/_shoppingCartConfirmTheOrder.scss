@@ -10,34 +10,34 @@
   &-information td {
     border: none;
   }
-  .btn-shoppingCart-light {
-    width: 100%;
-    border: 1px solid #dee9e8;
-    padding: 4px;
-    p {
-      font-size: 20px;
-      letter-spacing: 0.02em;
-      color: #496a54;
-      padding: 8px 0px;
-      background-color: #dee9e8;
-    }
+}
+.btn-shoppingCart-light {
+  width: 100%;
+  border: 1px solid #dee9e8;
+  padding: 4px;
+  p {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #496a54;
+    padding: 8px 0px;
+    background-color: #dee9e8;
   }
-  .btn-shoppingCart-dark {
-    width: 100%;
-    border: 1px solid #496a54;
-    padding: 4px;
-    p {
-      font-size: 20px;
-      letter-spacing: 0.02em;
-      color: #fafafa;
-      padding: 8px 0px;
-      background-color: #496a54;
-    }
+}
+.btn-shoppingCart-dark {
+  width: 100%;
+  border: 1px solid #496a54;
+  padding: 4px;
+  p {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #fafafa;
+    padding: 8px 0px;
+    background-color: #496a54;
   }
-  .btn-shoppingCart-light:hover {
-    border-color: transparent;
-  }
-  .btn-shoppingCart-dark:hover {
-    border-color: transparent;
-  }
+}
+.btn-shoppingCart-light:hover {
+  border-color: transparent;
+}
+.btn-shoppingCart-dark:hover {
+  border-color: transparent;
 }
