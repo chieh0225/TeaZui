@@ -46,15 +46,22 @@
 }
 
 .drink-pick {
+  padding: 40px 0px;
+  @include media-breakpoint-up(lg) {
+    padding: 80px 0px;
+  }
   svg,
   h3 {
     color: #866654 !important;
   }
   &-title {
-    width: calc(100% - 32px);
-    padding: 8px 0px;
     background-color: #7171711a;
     border-radius: 80px;
+    width: auto;
+    padding: 8px 24px;
+    @include media-breakpoint-up(lg) {
+      padding: 8px 80px;
+    }
     h3 {
       letter-spacing: 0.05em;
     }
@@ -66,6 +73,13 @@
 }
 .drink-pick-list {
   display: flex;
+  padding: 0px 60px;
+  @include media-breakpoint-up(sm) {
+    padding: 0px 80px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 0px;
+  }
   .drink-pick-items {
     border: 1px solid #866654;
     img {
@@ -98,10 +112,11 @@
       border-radius: unset;
     }
     .card-title {
+      font-weight: 700;
       letter-spacing: 0.05em;
     }
-    .btn-wrapper {
-      padding: 0px 8px 8px 8px;
+    .card-body {
+      height: 58.39px;
     }
   }
 }
