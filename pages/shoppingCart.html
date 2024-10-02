@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>確認訂購資訊</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <section class="container">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">購物車</li>
+          <li class="breadcrumb-item text-neutral-800">
+            <a href="#">填寫訂購資料</a>
+          </li>
+          <li class="breadcrumb-item text-neutral-800" aria-current="page">
+            <a href="#">確認訂購資訊</a>
+          </li>
+          <li class="breadcrumb-item text-neutral-800">
+            <a href="#">訂購成功</a>
+          </li>
+        </ol>
+      </nav>
+    </section>
+
+    <section class="container order mb-13">
+      <div class="row">
+        <div class="col-lg-8 d-lg-block d-none">
+          <table class="table">
+            <thead>
+              <tr class="table-neutral-200 text-center border">
+                <th scope="col">商品</th>
+                <th scope="col">單價</th>
+                <th scope="col">數量/組</th>
+                <th scope="col">總計</th>
+                <th scope="col">刪除</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img src="/assets/images/drink-4-w80.svg" alt="black tea" />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span class="fs-6">【五享九五】招牌紅茶</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$190</span>
+                  <del>NT$200</del>
+                </td>
+                <td class="text-center align-middle">
+                  <select
+                    class="form-select form-select-sm mb-3"
+                    aria-label="Small select example"
+                  >
+                    <option selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </td>
+                <td class="text-center align-middle">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">190</span>
+                </td>
+                <td class="text-center align-middle">
+                  <a href="#"
+                    ><i class="bi bi-trash3-fill text-neutral-600 fs-6"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img src="/assets/images/drink-2-w80.svg" alt="green tea" />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span class="fs-6">【超值十一】玉露綠茶</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$350</span>
+                  <del>NT$385</del>
+                </td>
+                <td class="text-center align-middle">
+                  <select
+                    class="form-select form-select-sm mb-3"
+                    aria-label="Small select example"
+                  >
+                    <option selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </td>
+                <td class="text-center align-middle">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">350</span>
+                </td>
+                <td class="text-center align-middle">
+                  <a href="#"
+                    ><i class="bi bi-trash3-fill text-neutral-600 fs-6"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img
+                    src="/assets/images/drink-5-w80.svg"
+                    alt="Green tea and oolong"
+                  />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span class="fs-6">【超值十一】金萱烏龍</span>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$350</span>
+                  <del>NT$385</del>
+                </td>
+                <td class="text-center align-middle">
+                  <select
+                    class="form-select form-select-sm mb-3"
+                    aria-label="Small select example"
+                  >
+                    <option selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </td>
+                <td class="text-center align-middle">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">350</span>
+                </td>
+                <td class="text-center align-middle">
+                  <a href="#"
+                    ><i class="bi bi-trash3-fill text-neutral-600 fs-6"></i
+                  ></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-8 d-lg-none">
+          <table class="table">
+            <thead>
+              <tr class="table-neutral-200 text-center border">
+                <th scope="col">商品 (數量/組)</th>
+                <th scope="col">單價</th>
+                <th scope="col" colspan="2">總計</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img src="/assets/images/drink-4-w80.svg" alt="black tea" />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span>【五享九五】招牌紅茶</span>
+                    <select
+                      class="form-select form-select-sm my-3 ms-2"
+                      aria-label="Small select example"
+                      style="width: 60px"
+                    >
+                      <option selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    <a href="#"
+                      ><i
+                        class="bi bi-trash3-fill text-neutral-600 fs-6 ms-3"
+                      ></i
+                    ></a>
+                  </p>
+                </th>
+                <td class="text-center align-middle" colspan="2">
+                  <span>NT$190</span>
+                  <del>NT$200</del>
+                </td>
+
+                <td class="text-center align-middle">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">190</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img src="/assets/images/drink-2-w80.svg" alt="green tea" />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span>【超值十一】玉露綠茶</span>
+                    <select
+                      class="form-select form-select-sm my-3 ms-2"
+                      aria-label="Small select example"
+                      style="width: 60px"
+                    >
+                      <option selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    <a href="#"
+                      ><i
+                        class="bi bi-trash3-fill text-neutral-600 fs-6 ms-3"
+                      ></i
+                    ></a>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$350</span>
+                  <del>NT$385</del>
+                </td>
+
+                <td class="text-center align-middle" colspan="2">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">350</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="d-flex align-items-center py-6">
+                  <img
+                    src="/assets/images/drink-5-w80.svg"
+                    alt="Green tea and oolong"
+                  />
+                  <p>
+                    <span class="text-primary-main d-block mb-2">一般寄杯</span>
+                    <span>【超值十一】金萱烏龍</span>
+                    <select
+                      class="form-select form-select-sm my-3 ms-2"
+                      aria-label="Small select example"
+                      style="width: 60px"
+                    >
+                      <option selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    <a href="#"
+                      ><i
+                        class="bi bi-trash3-fill text-neutral-600 fs-6 ms-3"
+                      ></i
+                    ></a>
+                  </p>
+                </th>
+                <td class="text-center align-middle">
+                  <span>NT$350</span>
+                  <del>NT$385</del>
+                </td>
+
+                <td class="text-center align-middle" colspan="2">
+                  <span style="font-size: 14px">NT$</span>
+                  <span class="text-primary-main fs-6">350</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <table class="table order-information">
+            <thead>
+              <tr class="table-neutral-200 text-center border">
+                <th scope="col" colspan="2">購物金額</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-4">金額</td>
+                <td class="text-end py-4">NT$ 970</td>
+              </tr>
+              <tr>
+                <td class="py-4">折抵</td>
+                <td class="text-end py-4 text-primary-main">NT$ -80</td>
+              </tr>
+              <tr>
+                <td class="py-4">付款總金額</td>
+                <td class="text-end py-4 text-danger">NT$ 890</td>
+              </tr>
+              <tr class="text-center">
+                <td>
+                  <button
+                    type="button"
+                    class="btn rounded-0 btn-shoppingCart-light"
+                  >
+                    <a href="reservation.html" class="d-block">
+                      <p
+                        class="d-flex align-items-center justify-content-center"
+                      >
+                        還想逛逛
+                      </p></a
+                    >
+                  </button>
+                </td>
+                <td>
+                  <button
+                    type="button"
+                    class="btn rounded-0 btn-shoppingCart-dark"
+                  >
+                    <a class="d-block" href="#">
+                      <p
+                        class="d-flex align-items-center justify-content-center"
+                      >
+                        送出訂單
+                      </p></a
+                    >
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
