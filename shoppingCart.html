@@ -92,14 +92,12 @@
     <section class="container">
       <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item text-neutral-800">
-            <a href="#">購物車</a>
-          </li>
+          <li class="breadcrumb-item active" aria-current="page">購物車</li>
           <li class="breadcrumb-item text-neutral-800">
             <a href="#">填寫訂購資料</a>
           </li>
-          <li class="breadcrumb-item active" aria-current="page">
-            確認訂購資訊
+          <li class="breadcrumb-item text-neutral-800" aria-current="page">
+            <a href="#">確認訂購資訊</a>
           </li>
           <li class="breadcrumb-item text-neutral-800">
             <a href="#">訂購成功</a>
@@ -108,7 +106,7 @@
       </nav>
     </section>
 
-    <section class="container order">
+    <section class="container order mb-13">
       <div class="row">
         <div class="col-lg-8 d-lg-block d-none">
           <table class="table">
@@ -118,6 +116,7 @@
                 <th scope="col">單價</th>
                 <th scope="col">數量/組</th>
                 <th scope="col">總計</th>
+                <th scope="col">刪除</th>
               </tr>
             </thead>
             <tbody>
@@ -133,10 +132,31 @@
                   <span>NT$190</span>
                   <del>NT$200</del>
                 </td>
-                <td class="text-center align-middle">1</td>
+                <td class="text-center align-middle">
+                  <select
+                    class="form-select form-select-sm mb-3"
+                    aria-label="Small select example"
+                  >
+                    <option selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </td>
                 <td class="text-center align-middle">
                   <span style="font-size: 14px">NT$</span>
                   <span class="text-primary-main fs-6">190</span>
+                </td>
+                <td class="text-center align-middle">
+                  <a href="#"
+                    ><i class="bi bi-trash3-fill text-neutral-600 fs-6"></i
+                  ></a>
                 </td>
               </tr>
               <tr>
@@ -151,10 +171,31 @@
                   <span>NT$350</span>
                   <del>NT$385</del>
                 </td>
-                <td class="text-center align-middle">1</td>
+                <td class="text-center align-middle">
+                  <select
+                    class="form-select form-select-sm mb-3"
+                    aria-label="Small select example"
+                  >
+                    <option selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </td>
                 <td class="text-center align-middle">
                   <span style="font-size: 14px">NT$</span>
                   <span class="text-primary-main fs-6">350</span>
+                </td>
+                <td class="text-center align-middle">
+                  <a href="#"
+                    ><i class="bi bi-trash3-fill text-neutral-600 fs-6"></i
+                  ></a>
                 </td>
               </tr>
               <tr>
@@ -172,10 +213,31 @@
                   <span>NT$350</span>
                   <del>NT$385</del>
                 </td>
-                <td class="text-center align-middle">1</td>
+                <td class="text-center align-middle">
+                  <select
+                    class="form-select form-select-sm mb-3"
+                    aria-label="Small select example"
+                  >
+                    <option selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </td>
                 <td class="text-center align-middle">
                   <span style="font-size: 14px">NT$</span>
                   <span class="text-primary-main fs-6">350</span>
+                </td>
+                <td class="text-center align-middle">
+                  <a href="#"
+                    ><i class="bi bi-trash3-fill text-neutral-600 fs-6"></i
+                  ></a>
                 </td>
               </tr>
             </tbody>
@@ -197,7 +259,27 @@
                   <p>
                     <span class="text-primary-main d-block mb-2">一般寄杯</span>
                     <span>【五享九五】招牌紅茶</span>
-                    <span class="d-block ms-2">x1</span>
+                    <select
+                      class="form-select form-select-sm my-3 ms-2"
+                      aria-label="Small select example"
+                      style="width: 60px"
+                    >
+                      <option selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    <a href="#"
+                      ><i
+                        class="bi bi-trash3-fill text-neutral-600 fs-6 ms-3"
+                      ></i
+                    ></a>
                   </p>
                 </th>
                 <td class="text-center align-middle" colspan="2">
@@ -216,7 +298,27 @@
                   <p>
                     <span class="text-primary-main d-block mb-2">一般寄杯</span>
                     <span>【超值十一】玉露綠茶</span>
-                    <span class="d-block ms-2">x1</span>
+                    <select
+                      class="form-select form-select-sm my-3 ms-2"
+                      aria-label="Small select example"
+                      style="width: 60px"
+                    >
+                      <option selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    <a href="#"
+                      ><i
+                        class="bi bi-trash3-fill text-neutral-600 fs-6 ms-3"
+                      ></i
+                    ></a>
                   </p>
                 </th>
                 <td class="text-center align-middle">
@@ -238,7 +340,27 @@
                   <p>
                     <span class="text-primary-main d-block mb-2">一般寄杯</span>
                     <span>【超值十一】金萱烏龍</span>
-                    <span class="d-block ms-2">x1</span>
+                    <select
+                      class="form-select form-select-sm my-3 ms-2"
+                      aria-label="Small select example"
+                      style="width: 60px"
+                    >
+                      <option selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    <a href="#"
+                      ><i
+                        class="bi bi-trash3-fill text-neutral-600 fs-6 ms-3"
+                      ></i
+                    ></a>
                   </p>
                 </th>
                 <td class="text-center align-middle">
@@ -255,35 +377,6 @@
           </table>
         </div>
         <div class="col-lg-4">
-          <table class="table order-information">
-            <thead>
-              <tr class="table-neutral-200 text-center border">
-                <th scope="col" colspan="2">訂購人資料</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="py-4">電話：</td>
-                <td class="py-4">0912345678</td>
-              </tr>
-              <tr>
-                <td class="py-4">姓名：</td>
-                <td class="py-4">王小明</td>
-              </tr>
-              <tr>
-                <td class="py-4">E-MAIL：</td>
-                <td class="py-4">abcd1234567@gmail.com</td>
-              </tr>
-              <tr>
-                <td class="py-4">付款方式：</td>
-                <td class="py-4">信用卡</td>
-              </tr>
-              <tr>
-                <td class="py-4">發票方式：</td>
-                <td class="py-4">電子載具(./QV505S)</td>
-              </tr>
-            </tbody>
-          </table>
           <table class="table order-information">
             <thead>
               <tr class="table-neutral-200 text-center border">
@@ -309,9 +402,13 @@
                     type="button"
                     class="btn rounded-0 btn-shoppingCart-light"
                   >
-                    <p class="d-flex align-items-center justify-content-center">
-                      上一步
-                    </p>
+                    <a href="reservation.html" class="d-block">
+                      <p
+                        class="d-flex align-items-center justify-content-center"
+                      >
+                        還想逛逛
+                      </p></a
+                    >
                   </button>
                 </td>
                 <td>
@@ -319,11 +416,11 @@
                     type="button"
                     class="btn rounded-0 btn-shoppingCart-dark"
                   >
-                    <a class="d-block" href="shoppingCartOrderCompleted.html">
+                    <a class="d-block" href="#">
                       <p
                         class="d-flex align-items-center justify-content-center"
                       >
-                        下一步
+                        送出訂單
                       </p></a
                     >
                   </button>
