@@ -1,3 +1,18 @@
+.product-intro {
+  letter-spacing: 0.02em;
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: none;
+  }
+  .breadcrumb-item svg {
+    width: 16px;
+    height: 16px;
+  }
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .product-section {
   letter-spacing: 0.02em;
   .nav-link {
@@ -52,7 +67,7 @@
   }
   svg,
   h3 {
-    color: #866654 !important;
+    color: #496a54 !important;
   }
   &-title {
     background-color: #7171711a;
@@ -81,7 +96,7 @@
     padding: 0px;
   }
   .drink-pick-items {
-    border: 1px solid #866654;
+    border: 1px solid #496a54;
     img {
       background-color: #fafafa;
     }
