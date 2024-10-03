@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>確認訂購資訊</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <section class="container">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item text-neutral-400" aria-current="page">
+            購物車
+          </li>
+          <li class="breadcrumb-item active fw-bold text-primary-main">
+            填寫訂購資料
+          </li>
+          <li class="breadcrumb-item text-neutral-400" aria-current="page">
+            確認訂購資訊
+          </li>
+          <li class="breadcrumb-item text-neutral-400">訂購成功</li>
+        </ol>
+      </nav>
+    </section>
+    <section class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-10">
+          <table class="table order-information">
+            <thead>
+              <tr class="table-neutral-200 text-center border">
+                <th scope="col" colspan="2">請填寫訂購資料</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-4" colspan="2">
+                  <div class="row mb-3">
+                    <label for="name" class="col-sm-2 col-form-label"
+                      >姓名 :</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="請輸入您的姓名"
+                      />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-4" colspan="2">
+                  <div class="row mb-3">
+                    <label for="tel" class="col-sm-2 col-form-label"
+                      >電話 :</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="tel"
+                        placeholder="請輸入您的電話"
+                      />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-4" colspan="2">
+                  <div class="row mb-3">
+                    <label for="email" class="col-sm-2 col-form-label"
+                      >E-MAIL :</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="請輸入您的E-MAIL"
+                      />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-4" colspan="2">
+                  <div class="row mb-3">
+                    <label for="add" class="col-sm-2 col-form-label"
+                      >地址 :</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="add"
+                        placeholder="請輸入您的地址"
+                      />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-4" colspan="2">
+                  <div class="row mb-3">
+                    <label for="colFormLabel" class="col-sm-2 col-form-label"
+                      >付款資訊 : <br />
+                      (僅限信用卡)</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        type="email"
+                        class="form-control mb-3"
+                        id="colFormLabel"
+                        placeholder="信用卡卡號"
+                      />
+                      <div class="col-sm-7 d-flex">
+                        <input
+                          type="email"
+                          class="form-control me-3"
+                          id="colFormLabel"
+                          placeholder="到期日 MM/YY"
+                        />
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="colFormLabel"
+                          placeholder="安全碼 CVC/CVV"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-4" colspan="2">
+                  <fieldset class="row mb-3">
+                    <legend class="col-form-label col-sm-2 pt-0">
+                      發票方式 :
+                    </legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="gridRadios"
+                          id="gridRadios1"
+                          value="option1"
+                          checked
+                        />
+                        <label class="form-check-label mb-3" for="gridRadios1">
+                          紙本發票
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="gridRadios"
+                          id="gridRadios2"
+                          value="option2"
+                        />
+                        <label class="form-check-label mb-3" for="gridRadios2">
+                          電子載具
+                        </label>
+                        <input
+                          type="text"
+                          class="form-control mb-3"
+                          id="gridRadios2"
+                          placeholder="手機條碼以 / 開頭，長度共八碼"
+                        />
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="gridRadios"
+                          id="gridRadios3"
+                          value="option2"
+                        />
+                        <label class="form-check-label mb-3" for="gridRadios3">
+                          企業發票
+                        </label>
+                        <input
+                          type="text"
+                          class="form-control mb-3"
+                          id="gridRadios3"
+                          placeholder=" 統一編號，送出則無法修改，請務必確認"
+                        />
+                      </div>
+                    </div>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr class="text-center">
+                <td>
+                  <button
+                    type="button"
+                    class="btn rounded-0 btn-shoppingCart-light"
+                    onclick="location.href='shoppingCart.html'"
+                  >
+                    <p class="d-flex align-items-center justify-content-center">
+                      上一步
+                    </p>
+                  </button>
+                </td>
+                <td>
+                  <button
+                    type="button"
+                    class="btn rounded-0 btn-shoppingCart-dark"
+                    onclick="location.href='shoppingCartConfirmTheOrder.html'"
+                  >
+                    <p class="d-flex align-items-center justify-content-center">
+                      下一步
+                    </p>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
