@@ -1,0 +1,43 @@
+// 加入購物車按鈕 - 主色
+.card-buy-btn-primary {
+  border: unset;
+  padding: 0;
+  @include media-breakpoint-up(md) {
+    border: 1px solid #866654;
+    padding: 4px;
+  }
+  p {
+    letter-spacing: 0.02em;
+    color: #fafafa;
+    padding: 12px 0px;
+    background-color: #866654;
+  }
+}
+// 加入購物車按鈕 - 綠色
+.card-buy-btn-second {
+  border: unset;
+  padding: 0;
+  @include media-breakpoint-up(md) {
+    border: 1px solid #496a54;
+    padding: 4px;
+  }
+  p {
+    letter-spacing: 0.02em;
+    color: #fafafa;
+    padding: 12px 0px;
+    background-color: #496a54;
+  }
+}
+
+// for 含箭頭的白底按鈕
+.custom-btn-white {
+  border: 1px solid #fafafa;
+  padding: 8px;
+  h6 {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #496a54;
+    padding: 10px 18.5px;
+    background-color: #fafafa;
+  }
+}

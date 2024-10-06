@@ -1,1 +1,18 @@
-
+.custom-breadcrumb {
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: none;
+  }
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+  }
+  .breadcrumb-item svg {
+    width: 16px;
+    height: 16px;
+  }
+  .breadcrumb-item a:hover {
+    color: #866654;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}

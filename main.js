@@ -5,5 +5,3 @@ import feather from "feather-icons";
 feather.replace(); // 直接替換圖標
 
 console.log("Hello world!");
-
-import "./assets/js/product-page-tab.js";

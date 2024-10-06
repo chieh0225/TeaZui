@@ -1,0 +1,13 @@
+.store-map {
+  .slogan {
+    padding: 0px 24px;
+    text-align: center;
+    @include media-breakpoint-up(lg) {
+      padding: 64px 36px;
+      text-align: left;
+    }
+    h2 {
+      max-width: 564px;
+    }
+  }
+}
