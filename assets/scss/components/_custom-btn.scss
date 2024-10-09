@@ -41,3 +41,37 @@
     background-color: #fafafa;
   }
 }
+
+// 數量加減按鈕群組
+.quantity-controls {
+  color: #866654;
+  .btn-group,
+  .btn {
+    border-radius: 0 !important;
+  }
+  .btn-group {
+    border: 1px solid #866654;
+  }
+  .add-down,
+  .add-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: initial;
+    padding: 8px;
+    background-color: rgba(134, 102, 84, 0.2);
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .add-down {
+    margin: 4px 0px 4px 4px;
+  }
+  .add-up {
+    margin: 4px 4px 4px 0px;
+  }
+  input {
+    padding: 8px 0px;
+  }
+}

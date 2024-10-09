@@ -12,7 +12,7 @@
     <!-- 商品簡介 -->
     <section>
       <div class="pt-lg-0 pt-4 pb-lg-11 pb-4 px-0 product-intro container">
-        <div class="row row-cols-1 row-cols-lg-2 m-0 flex-lg-row flex-column justify-content-lg-between align-items-center">
+        <div class="row row-cols-1 row-cols-lg-2 m-0 flex-lg-row flex-column justify-content-lg-start">
           <div class="col custom-breadcrumb">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
@@ -34,7 +34,7 @@
                   />
                   <img
                     src="/assets/images/drink-4-w67.png"
-                    class="card-img-top py-lg-9 py-2 px-lg-11 px-11"
+                    class="card-img-top py-9 px-11"
                     alt="招牌紅茶"
                   />
                 </picture>
@@ -42,35 +42,44 @@
             </div>
           </div>
 
-          <div class="col">
-            <div class="d-flex flex-column gap-9 pt-3 pb-6 px-lg-6 px-0 product-info">
+          <div class="col h-auto">
+            <div class="d-flex flex-column justify-content-between gap-9 pt-3 pb-6 px-lg-6 px-0 product-info h-100">
               <div class="d-flex flex-column gap-4">
-                <h3 class="text-second-400 fs-lg-3 fs-5 fw-bold pt-lg-0 pt-6">
+                <h3 class="text-second-400 fs-lg-3 fs-5 fw-bold pt-lg-0 pt-6 mb-4">
                   【五享九五】招牌紅茶
                 </h3>
                 <p>「招牌紅茶，品味經典風味!」</p>
-                <p>將醇厚紅茶與傳統韻味完美結合，<br>每一口都是純粹與回味的絕妙享受。</p>
+                <p>將醇厚紅茶與傳統韻味完美結合，每一口都是純粹與回味的絕妙享受。</p>
               </div>
               <div class="d-flex align-items-end gap-lg-4 gap-2 font-lora">
                 <h5 class="card-title fs-lg-5 fs-body fw-bold">NT$190</h5>
                 <small class="card-text text-decoration-line-through fs-lg-small fs-tiny">NT$200</small>
               </div>
-              <div class="d-flex gap-6">
-                <div class="btn-wrapper w-100">
-                  <button
-                    type="button"
-                    class="btn rounded-0 card-buy-btn-primary w-100"
-                  >
-                    <p>加入購物車</p>
-                  </button>
+              <div class="d-flex flex-column gap-4">
+                <div class="quantity-controls">
+                  <div class="btn-group w-100" role="group" aria-label="First group">
+                    <button class="btn add-down" type="button"><i data-feather="minus"></i></button>
+                    <input class="btn font-lora" type="text" name="quantity" value="1" data-old-value="1">
+                    <button class="btn add-up" type="button"><i data-feather="plus"></i></button>
+                  </div>
                 </div>
-                <div class="btn-wrapper w-100">
-                  <button
-                    type="button"
-                    class="btn rounded-0 card-buy-btn-second w-100"
-                  >
-                    <p>立即購買</p>
-                  </button>
+                <div class="d-flex gap-4">
+                  <div class="btn-wrapper w-100">
+                    <button
+                      type="button"
+                      class="btn rounded-0 card-buy-btn-primary w-100"
+                    >
+                      <p>加入購物車</p>
+                    </button>
+                  </div>
+                  <div class="btn-wrapper w-100">
+                    <button
+                      type="button"
+                      class="btn rounded-0 card-buy-btn-second w-100"
+                    >
+                      <p>立即購買</p>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

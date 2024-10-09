@@ -1,5 +1,11 @@
 .product-intro {
   letter-spacing: 0.02em;
+  .card-img-top {
+    max-height: 240px;
+    @include media-breakpoint-up(md) {
+      max-height: 356px;
+    }
+  }
 }
 
 .product-section {
