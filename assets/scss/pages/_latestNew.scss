@@ -1,0 +1,32 @@
+.news-header {
+  background-image: url("/assets/images/bg-brown.png");
+  height: 500px;
+}
+
+.news-nav {
+  a:hover {
+    color: #866654;
+    font-weight: bold;
+  }
+}
+
+.btn-latestNew-main {
+  width: auto;
+  border: 1px solid #866654;
+  padding: 4px;
+  width: 134px;
+  p {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #fafafa;
+    padding: 10px 0px;
+    background-color: #866654;
+  }
+  img {
+    width: 20px;
+    height: 16px;
+  }
+}
+.btn-latestNew-main:hover {
+  border-color: transparent;
+}

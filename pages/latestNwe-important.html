@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>線上寄杯 - 重要資訊</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <section class="news-header">
+      <div class="container h-100">
+        <div
+          class="d-flex flex-column align-items-center justify-content-center h-100"
+        >
+          <h2 class="text-primary-main fw-bold font-lora">LATEST NEWS</h2>
+          <h1 class="text-primary-main fs-4 my-5">
+            <i class="bi bi-flower3"></i> 最新消息
+            <i class="bi bi-flower3"></i>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="news-nav my-7">
+        <ul class="d-none d-lg-block text-center">
+          <li
+            class="d-inline-block px-5 text-neutral-600 border-end border-neutral-400"
+          >
+            <a href="latestNew-index.html">所有訊息</a>
+          </li>
+          <li
+            class="d-inline-block px-5 text-primary-main border-end border-neutral-400"
+          >
+            <a href="#">重要資訊</a>
+          </li>
+          <li
+            class="d-inline-block px-5 text-neutral-600 border-end border-neutral-400"
+          >
+            <a href="latestNew-newProduct.html">新品上市</a>
+          </li>
+          <li
+            class="d-inline-block px-5 text-neutral-600 border-end border-neutral-400"
+          >
+            <a href="latestNew-newStore.html">門市開幕</a>
+          </li>
+          <li
+            class="d-inline-block px-5 text-neutral-600 border-end border-neutral-400"
+          >
+            <a href="latestNew-goods.html">周邊商品</a>
+          </li>
+          <li class="d-inline-block px-5 text-neutral-600">
+            <a href="latestNew-membersOnly.html">會員專屬</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="dropdown d-lg-none">
+        <button
+          class="btn border border-neutral-400 w-100 dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          所有訊息
+        </button>
+        <ul class="dropdown-menu w-100 text-center align-center">
+          <li>
+            <a class="dropdown-item py-7" href="latestNew-index.html"
+              >所有訊息</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item py-7" href="#">重要資訊</a>
+          </li>
+          <li>
+            <a class="dropdown-item py-7" href="latestNew-newProduct.html"
+              >新品上市</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item py-7" href="latestNew-newStore.html"
+              >門市開幕</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item py-7" href="latestNew-goods.html"
+              >周邊商品</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item py-7" href="latestNew-goods.html"
+              >會員專屬</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <main class="container mb-13">
+      <div class="row">
+        <div class="col-lg-6 gy-4">
+          <div class="card mb-3 rounded-0">
+            <div class="row">
+              <div class="col-md-4 d-flex justify-content-center">
+                <img
+                  src="/assets/images/news-warn.jpg"
+                  alt="warn"
+                  class="w-100"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-primary-main fw-bold">重要資訊</h5>
+                  <p class="card-text mb-3">
+                    <small class="text-body-secondary">2024.7.7</small>
+                  </p>
+                  <p class="card-text">
+                    茶醉TEA
+                    ZUI不會透過官方網站、加盟專線以及官方社群帳號(包含Facebook.Instagram.LINE@)以外的管道與消費者聯繫以門市頂讓或投資等相關要求與詢問意願。
+                  </p>
+                  <div class="d-flex justify-content-end">
+                    <button
+                      type="button"
+                      class="btn rounded-0 btn-latestNew-main mt-8"
+                    >
+                      <p
+                        class="d-flex align-items-center justify-content-center"
+                      >
+                        查看更多
+                        <img
+                          src="/assets/images/arrow-neutral-50.svg"
+                          alt="arrow"
+                          class="ms-2"
+                        />
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
