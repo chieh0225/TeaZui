@@ -1,0 +1,24 @@
+.brand-header {
+  background-image: url("/assets/images/bg-brown.png");
+  height: 500px;
+  h2 {
+    font-size: 35px;
+    @include desktop {
+      font-size: 40px;
+    }
+  }
+}
+
+.brand-intro {
+  p {
+    letter-spacing: 3px;
+  }
+}
+.brand {
+  h3 {
+    letter-spacing: 4px;
+  }
+  p {
+    letter-spacing: 2px;
+  }
+}
