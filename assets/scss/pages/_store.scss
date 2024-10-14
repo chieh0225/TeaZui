@@ -24,8 +24,12 @@
       padding-bottom: 12px;
       border-color: #866654;
       background-color: transparent;
-      &:focus {
+      &:hover {
+        cursor: pointer;
         border-color: #496a54;
+        background-color: rgba(134, 102, 84, 0.1);
+      }
+      &:focus {
         box-shadow: none !important; /* 移除外圈效果 */
       }
     }
@@ -41,6 +45,9 @@
     padding: 16px 12px;
     @include media-breakpoint-up(md) {
       flex-direction: row;
+    }
+    &:hover {
+      background-color: rgba(134, 102, 84, 0.1);
     }
     svg {
       width: 16px;
@@ -102,6 +109,12 @@
           @include media-breakpoint-up(sm) {
             display: inline-block;
             margin-left: 16px;
+          }
+          &:hover {
+            cursor: pointer;
+            color: #e9e4e1;
+            background-color: #866654;
+            border: 1px solid #e9e4e1;
           }
         }
         .feather-phone {
