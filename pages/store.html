@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>門市據點</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <section class="bg-brown">
+      <div class="stores-header container">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-primary-main fw-bold font-lora">STORE</h2>
+          <h1 class="text-primary-main fs-4 my-5">
+            <i class="bi bi-flower3"></i> 門市據點
+            <i class="bi bi-flower3"></i>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <div class="locationBox container">
+      <h6 class="store-notice">實際營業狀況依各店公告為主</h6>
+      <div class="selects">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>門市據點</option>
+          <option value="1">台灣據點</option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>地區</option>
+          <option value="1">台北門市</option>
+          <option value="2">新北門市</option>
+          <option value="3">基隆門市</option>
+        </select>
+      </div>
+
+      <ul class="locationList">
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 明曜店</h6>
+          <div class="store-location">台北市大安區忠孝東路四段230號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-27711234"
+              >02-27711234<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 林森店</h6>
+          <div class="store-location">台北市中山區林森北路100號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-25635678"
+              >02-25635678<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 信義店</h6>
+          <div class="store-location">台北市信義區松仁路58號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-27227890"
+              >02-27227890<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 天母店</h6>
+          <div class="store-location">台北市士林區中山北路六段200號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-28362345"
+              >02-28362345<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 萬華店</h6>
+          <div class="store-location">台北市萬華區西藏路310號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-23086789"
+              >02-23086789<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
