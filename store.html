@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>訂購成功</title>
+    <title>門市據點</title>
     <script type="module" crossorigin src="/TeaZui/assets/main-3c8c0d2b.js"></script>
     <link rel="stylesheet" href="/TeaZui/assets/main-276a3e37.css">
   </head>
@@ -94,85 +94,94 @@
     </div>
   </div>
 </nav>
-    <section class="container">
-      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item text-neutral-400">購物車</li>
-          <li class="breadcrumb-item text-neutral-400">填寫訂購資料</li>
-          <li class="breadcrumb-item text-neutral-400">確認訂購資訊</li>
-          <li
-            class="breadcrumb-item active fw-bold text-primary-main"
-            aria-current="page"
-          >
-            訂購成功
-          </li>
-        </ol>
-      </nav>
-    </section>
-    <main class="container d-flex justify-content-center orderCompleted">
-      <div class="col-lg-8">
-        <div class="text-center">
-          <i class="bi bi-check-circle ok text-success"></i>
-          <h1 class="fs-3 fw-bold my-3">訂購成功</h1>
-          <h2 class="fs-5 fw-bold my-4">感謝您的購買!</h2>
-        </div>
-        <table class="table mb-0">
-          <thead>
-            <tr class="table-neutral-200 text-center border">
-              <th scope="col" colspan="2">訂購資料</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="py-4">訂單編號 :</td>
-              <td class="py-4">AZ0899419762</td>
-            </tr>
-            <tr>
-              <td class="py-4">訂單成立 :</td>
-              <td class="py-4">2024-10-10 12:20:03</td>
-            </tr>
-            <tr>
-              <td class="py-4">付款方式 :</td>
-              <td class="py-4">信用卡</td>
-            </tr>
-            <tr>
-              <td class="py-4">付款金額 :</td>
-              <td class="py-4">$ 890</td>
-            </tr>
-            <tr>
-              <td class="py-4">發票方式 :</td>
-              <td class="py-4">電子載具(./QV505S)</td>
-            </tr>
-            <tr>
-              <td class="py-4">發票號碼 :</td>
-              <td class="py-4">AB-12345678</td>
-            </tr>
-            <tr>
-              <td class="py-4 text-danger fw-bold" colspan="2">
-                提醒:票券使用期限為90天!
-              </td>
-            </tr>
-            <tr>
-              <td class="py-4 text-danger fw-bold" colspan="2">
-                茶醉不會以任何理由或方式,要求消費者以ATM進行任何操作,請定期更改密碼確保帳戶安全。
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <div class="text-center">
-          <button
-            type="button"
-            class="btn rounded-0 btn-shoppingCart-dark my-6"
-            style="width: 250px"
-            onclick="location.href='reservation.html'"
-          >
-            <p class="d-flex align-items-center justify-content-center">
-              繼續逛逛
-            </p>
-          </button>
+
+    <section class="bg-brown">
+      <div class="stores-header container">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-primary-main fw-bold font-lora">STORE</h2>
+          <h1 class="text-primary-main fs-4 my-5">
+            <i class="bi bi-flower3"></i> 門市據點
+            <i class="bi bi-flower3"></i>
+          </h1>
         </div>
       </div>
-    </main>
+    </section>
+
+    <div class="locationBox container">
+      <h6 class="store-notice">實際營業狀況依各店公告為主</h6>
+      <div class="selects">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>門市據點</option>
+          <option value="1">台灣據點</option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>地區</option>
+          <option value="1">台北門市</option>
+          <option value="2">新北門市</option>
+          <option value="3">基隆門市</option>
+        </select>
+      </div>
+
+      <ul class="locationList">
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 明曜店</h6>
+          <div class="store-location">台北市大安區忠孝東路四段230號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-27711234"
+              >02-27711234<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 林森店</h6>
+          <div class="store-location">台北市中山區林森北路100號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-25635678"
+              >02-25635678<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 信義店</h6>
+          <div class="store-location">台北市信義區松仁路58號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-27227890"
+              >02-27227890<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 天母店</h6>
+          <div class="store-location">台北市士林區中山北路六段200號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-28362345"
+              >02-28362345<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+        <li class="locationItem" data-hash="Taiwan" data-hash2="North01">
+          <h6 class="store-name">台北 萬華店</h6>
+          <div class="store-location">台北市萬華區西藏路310號</div>
+          <div class="opening-hours">營業時間: 11:00 - 22:00</div>
+          <div class="store-phone">
+            <a href="tel:02-23086789"
+              >02-23086789<span class="phone-icon-wrapper"
+                ><i data-feather="phone"></i></span
+            ></a>
+          </div>
+        </li>
+      </ul>
+    </div>
 
     <footer class="footer bg-white">
   <div
