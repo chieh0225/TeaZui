@@ -1,0 +1,80 @@
+.drink-sort {
+  margin-bottom: 48px;
+  .drink-sort-title {
+    color: #496a54;
+    font-weight: bold;
+    margin-bottom: 32px;
+    span {
+      font-size: 20px;
+    }
+  }
+  .drink-sort-row {
+    align-items: start;
+  }
+  .drink-img-wrapper {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 32px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.menu-list {
+  background: #f6f5f4;
+  padding: 32px;
+  li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 16px 0;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    &:first-child {
+      padding-top: 0;
+    }
+    .menu-tui {
+      display: flex;
+      align-items: center;
+      width: 32px;
+      height: 20px;
+      padding-right: 10px;
+      color: #bc192c;
+      font-size: 12px;
+      font-weight: bolder;
+      svg {
+        width: 20px;
+        height: 20px;
+        color: #bc192c;
+      }
+    }
+    .menu-info {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.milk-tea {
+  .drink-img-wrapper {
+    padding: 50px 0;
+  }
+}
+
+.milk {
+  .drink-img-wrapper {
+    padding: 50px 0;
+  }
+}
+
+.fresh {
+  .drink-img {
+    height: 172px;
+  }
+  .coming {
+    color: #496a54;
+  }
+}

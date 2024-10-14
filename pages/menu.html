@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>飲品菜單</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <!-- 夏季限定 -->
+
+    <!-- 飲品清單 -->
+    <!-- 純粹 -->
+    <section>
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">純粹</h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/assets/images/drink-4-w210.svg"
+                alt="招牌紅茶"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui">
+                  <i data-feather="thumbs-up"></i>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">招牌紅茶</div>
+                  <div class="cost font-lora">NT$40</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">玉露綠茶</div>
+                  <div class="cost font-lora">NT$35</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">四季青茶</div>
+                  <div class="cost font-lora">NT$35</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">金萱烏龍</div>
+                  <div class="cost font-lora">NT$35</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">焙香蕎麥</div>
+                  <div class="cost font-lora">NT$30</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 奶茶 -->
+    <section class="milk-tea">
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">奶茶</h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/assets/images/drink-1-w210-h171.png"
+                alt="義式奶茶"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui">
+                  <p class="font-lora">New</p>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">義式奶茶</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">玉露奶綠</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">烏龍奶茶</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">蕎麥奶茶</div>
+                  <div class="cost font-lora">NT$40</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 鮮奶 -->
+    <section class="milk">
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">鮮奶<span> / 過敏原:牛奶</span></h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/assets/images/drink-9.png"
+                alt="蕎麥拿鐵"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">招牌拿鐵</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">玉露拿鐵</div>
+                  <div class="cost font-lora">NT$55</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">烏龍拿鐵</div>
+                  <div class="cost font-lora">NT$55</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui">
+                  <i data-feather="thumbs-up"></i>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">蕎麥拿鐵</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">可可拿鐵</div>
+                  <div class="cost font-lora">NT$60</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 鮮粹 -->
+    <section class="fresh">
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">鮮粹</h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/assets/images/drink-3-w240.png"
+                alt="蜂蜜檸檬"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">百香綠茶</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">檸檬紅茶</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">檸檬綠茶</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui">
+                  <i data-feather="thumbs-up"></i>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">蜂蜜檸檬</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">
+                    葡萄果粒茶
+                    <span class="coming">⟨ 即將推出 ⟩</span>
+                  </div>
+                  <div class="cost font-lora">NT$60</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 冬露 -->
+    <section class="fresh">
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">冬露</h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/assets/images/drink-3-w240.png"
+                alt="蜂蜜檸檬"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">冬露</div>
+                  <div class="cost font-lora">NT$40</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">招牌冬露</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui">
+                  <i data-feather="thumbs-up"></i>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">檸檬冬露</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">菊花冬露</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">冬露鮮奶</div>
+                  <div class="cost font-lora">NT$60</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 菜單 -->
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
