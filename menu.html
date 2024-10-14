@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>飲品菜單</title>
+    <script type="module" crossorigin src="/TeaZui/assets/main-062cba23.js"></script>
+    <link rel="stylesheet" href="/TeaZui/assets/main-d81cdee5.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg nav-other">
+  <div class="container">
+    <div class="container-fluid d-lg-flex">
+      <div class="position-relative">
+        <div class="d-flex align-items-center">
+          <div>
+            <a class="navbar-brand" href="./index.html">
+              <picture>
+                <source
+                  srcset="/TeaZui/assets/logo-sm-2a85df29.svg "
+                  media="(max-width: 992px)"
+                />
+                <img src="/TeaZui/assets/logo-e80858db.svg" alt="logo" />
+              </picture>
+            </a>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler position-absolute top-50 end-0 translate-middle-y"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="d-flex align-items-center justify-content-between w-100">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav text-center fs-6 fw-bold">
+            <a
+              class="nav-link px-4 py-2 my-5"
+              aria-current="page"
+              href="brandIntroduction.html"
+              >品牌介紹</a
+            >
+            <a class="nav-link px-4 py-2 my-5" href="menu.html">飲品菜單</a>
+            <a class="nav-link px-4 py-2 my-5" href="latestNew-index.html"
+              >最新消息</a
+            >
+            <a class="nav-link px-4 py-2 my-5" href="store.html">門市據點</a>
+            <a class="nav-link px-4 py-2 my-5" href="reservation.html"
+              >線上寄杯</a
+            >
+            <div class="d-flex d-lg-none justify-content-center my-5">
+              <a href="#" class="px-3 py-2"
+                ><i data-feather="user" style="width: 20px; height: 20px"></i
+              ></a>
+              <a href="shoppingCart.html" class="position-relative mx-3 my-2"
+                ><i
+                  data-feather="shopping-cart"
+                  style="width: 20px; height: 20px"
+                ></i>
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-1"
+                  >99</span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="d-flex d-lg-block d-none">
+          <a href="#" class="p-3"
+            ><i data-feather="user" style="width: 20px; height: 20px"></i
+          ></a>
+          <a href="shoppingCart.html" class="position-relative m-3"
+            ><i
+              data-feather="shopping-cart"
+              style="width: 20px; height: 20px"
+            ></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-1"
+              >99</span
+            ></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <!-- 夏季限定 -->
+
+    <!-- 飲品清單 -->
+    <!-- 純粹 -->
+    <section>
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">純粹</h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/TeaZui/assets/drink-4-w210-cce5c329.svg"
+                alt="招牌紅茶"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui">
+                  <i data-feather="thumbs-up"></i>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">招牌紅茶</div>
+                  <div class="cost font-lora">NT$40</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">玉露綠茶</div>
+                  <div class="cost font-lora">NT$35</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">四季青茶</div>
+                  <div class="cost font-lora">NT$35</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">金萱烏龍</div>
+                  <div class="cost font-lora">NT$35</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">焙香蕎麥</div>
+                  <div class="cost font-lora">NT$30</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 奶茶 -->
+    <section class="milk-tea">
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">奶茶</h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/TeaZui/assets/drink-1-w210-h171-9c41f2e2.png"
+                alt="義式奶茶"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui">
+                  <p class="font-lora">New</p>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">義式奶茶</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">玉露奶綠</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">烏龍奶茶</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">蕎麥奶茶</div>
+                  <div class="cost font-lora">NT$40</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 鮮奶 -->
+    <section class="milk">
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">鮮奶<span> / 過敏原:牛奶</span></h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/TeaZui/assets/drink-9-3096a258.png"
+                alt="蕎麥拿鐵"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">招牌拿鐵</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">玉露拿鐵</div>
+                  <div class="cost font-lora">NT$55</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">烏龍拿鐵</div>
+                  <div class="cost font-lora">NT$55</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui">
+                  <i data-feather="thumbs-up"></i>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">蕎麥拿鐵</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">可可拿鐵</div>
+                  <div class="cost font-lora">NT$60</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 鮮粹 -->
+    <section class="fresh">
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">鮮粹</h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/TeaZui/assets/drink-3-w240-16b440a4.png"
+                alt="蜂蜜檸檬"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">百香綠茶</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">檸檬紅茶</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">檸檬綠茶</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui">
+                  <i data-feather="thumbs-up"></i>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">蜂蜜檸檬</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">
+                    葡萄果粒茶
+                    <span class="coming">⟨ 即將推出 ⟩</span>
+                  </div>
+                  <div class="cost font-lora">NT$60</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 冬露 -->
+    <section class="fresh">
+      <div class="drink-sort container">
+        <h2 class="drink-sort-title">冬露</h2>
+        <div class="row row-cols-1 row-cols-sm-2 drink-sort-row">
+          <div class="col">
+            <div class="drink-img-wrapper">
+              <img
+                src="/TeaZui/assets/drink-3-w240-16b440a4.png"
+                alt="蜂蜜檸檬"
+                class="drink-img"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <ul class="menu-list">
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">冬露</div>
+                  <div class="cost font-lora">NT$40</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">招牌冬露</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui">
+                  <i data-feather="thumbs-up"></i>
+                </div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">檸檬冬露</div>
+                  <div class="cost font-lora">NT$50</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">菊花冬露</div>
+                  <div class="cost font-lora">NT$45</div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-tui"></div>
+                <div class="menu-info">
+                  <div class="zh drinkname show">冬露鮮奶</div>
+                  <div class="cost font-lora">NT$60</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 菜單 -->
+
+    <footer class="footer bg-white">
+  <div
+    class="container d-flex flex-column align-items-center flex-lg-row pt-10 pb-10 pt-lg-13 pb-lg-13"
+  >
+    <img src="/TeaZui/assets/logo-e80858db.svg" alt="logo" />
+    <div
+      class="d-flex flex-column align-items-center align-items-lg-start ms-lg-6 w-100"
+    >
+      <ul class="list fw-bold mt-5 text-neutral-800 d-lg-flex mt-lg-6 mb-lg-6">
+        <li>
+          <a
+            class="list-link fs-6 ms-2 me-2 p-2 ps-lg-4 pe-lg-4"
+            href="brandIntroduction.html"
+            >品牌介紹</a
+          >
+        </li>
+        <li>
+          <a
+            class="list-link fs-6 ms-2 me-2 p-2 ps-lg-4 pe-lg-4"
+            href="menu.html"
+            >飲品菜單</a
+          >
+        </li>
+        <li>
+          <a
+            class="list-link fs-6 ms-2 me-2 p-2 ps-lg-4 pe-lg-4"
+            href="latestNew-index.html"
+            >最新消息</a
+          >
+        </li>
+        <li>
+          <a
+            class="list-link fs-6 ms-2 me-2 p-2 ps-lg-4 pe-lg-4"
+            href="store.html"
+            >門市據點</a
+          >
+        </li>
+        <li>
+          <a
+            class="list-link fs-6 ms-2 me-2 p-2 ps-lg-4 pe-lg-4"
+            href="./reservation.html"
+            >線上寄杯</a
+          >
+        </li>
+      </ul>
+      <div class="d-lg-flex w-100 justify-content-lg-between">
+        <ul
+          class="d-flex flex-column align-items-center fw-bold text-primary-main mt-5 mb-5 flex-lg-row mt-lg-6 mb-lg-8"
+        >
+          <li class="mb-4 mb-lg-0 me-lg-11">
+            <a href="tel:0800-000-000"
+              ><i class="me-2" data-feather="phone"></i>0800-000-000</a
+            >
+          </li>
+          <li>
+            <a href="mailto:teazui@business.com"
+              ><i class="me-2" data-feather="mail"></i>teazui@business.com</a
+            >
+          </li>
+        </ul>
+        <ul
+          class="d-flex justify-content-center social-links align-items-lg-center"
+        >
+          <li class="ms-2 me-2">
+            <a
+              class="bg-primary-main text-white rounded d-flex justify-content-center align-items-center"
+              href="#"
+              ><i class="bi bi-facebook d-block"></i
+            ></a>
+          </li>
+          <li class="ms-2 me-2">
+            <a
+              class="bg-primary-main text-white rounded d-flex justify-content-center align-items-center"
+              href="#"
+              ><i class="bi bi-line d-block"></i
+            ></a>
+          </li>
+          <li class="ms-2 me-2">
+            <a
+              class="bg-primary-main text-white rounded d-flex justify-content-center align-items-center"
+              href="#"
+              ><i class="bi bi-instagram d-block"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="text-primary-main border-top border-primary-200 mt-5 mb-5 text-center mb-lg-0 text-lg-start copyright"
+      >
+        <small class="d-block mt-5 mb-2 d-lg-inline-block mb-lg-0"
+          >© 2024 Copyright 茶醉 TeaZui. All Rights Reserved.
+        </small>
+        <small class="d-block d-lg-inline"
+          >此網站為僅供學習使用，無任何商業用途</small
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+  </body>
+</html>
