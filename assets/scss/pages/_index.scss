@@ -12,10 +12,19 @@
     .nav-link:hover {
       color: #866654;
     }
+    .offcanvas-body {
+      .nav-link {
+        color: #262626;
+      }
+      .nav-link:hover {
+        background-color: #866654;
+        color: white;
+      }
+    }
   }
 
   &-bg {
-    background-image: url(/assets/images/banner2.png);
+    background-image: url(/assets/images/banner3.png);
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
