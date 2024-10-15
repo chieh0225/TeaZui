@@ -75,6 +75,8 @@
 
 .newProduct {
   h2 {
+    font-size: 30px;
+    letter-spacing: 4px;
     @include desktop {
       font-size: 70px;
     }
@@ -93,7 +95,7 @@
   }
   .left {
     position: absolute;
-    left: 65%;
+    left: 55%;
     top: -10px;
   }
 
