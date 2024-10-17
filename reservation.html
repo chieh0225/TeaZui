@@ -4,6 +4,28 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Icons -->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/TeaZui/assets/apple-touch-icon-5bf1e0e4.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="data:image/png;base64,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"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAr1JREFUOE+Nk01oXFUcxX/nvpcZIZiC1FCmLqILUamGohahggOKi6pjsUhB1PpRN4qKG22moXnBZERdRHQj8at1IyVCN7qxC1Ek1ioWlBEs2oLVWKatkjAT00nePfLyUUrdeFb3wuXH+Z//uRoZefGqktJ+LlKeJ0oTal2SV7Msmx8b27sxyZkgaiDQfeCl0dd+X3uuV7LhH8DXXgxYOavH0U/kUUdDGsuBcAD5Rjk8Fln6Lk+S83menlQjG9oOYZNMHekb8Fajt8G/AUHSPhtJLhd3W+eBCCwlCtvVGBq6Mi95c0ryMYRDEB+09cKS9VWS538pDTWCrhHxV8eYC1UcdFmMHO9TekiNbPhNwbP/HYHmzLnZmyvr+2pY+5XrtoUkaZa9+AnS5d83f65OTU3lGh+pvxdCuB/zo6ElPGh0WqZSXtcZXJjt3Y/YBvmtlDijbtIET+8ZGdtRzLUCUNhmOIL9C1C1dCKYzYtxcUea9HwpeZ0jn9k+HBK9LuvvPI/P1F9uHFwD1DB/WP5QaLfx6SAN2P4JuAvrIOKhIjjjGeCs0KaoWFsdQY/bOkGe71IInyL1FokXaUf7XXXjMKVkVOIRRT+aB58S+iDCUysAtDPa9y2G0hfQ6S9RfkuwJca4uzTfne6bm+ueq/Qfxh44Mzd//XWdztLZDRuqae/CkbUQdxJ9QNC1LBTuJpKCP0e6t2gVsB5IgJaxZfqQ3lhzsAs4tVwQgVG/zJ+Ofl+BOwukzBakMvZ0kUWx9ih/tAyQdE8PPTd1oN1ut3VFb/kdoVtac53BiYmJf7JqNS3dsfVbSZWTM62rJycn5y/8hdU1Pmz4GrxMBm6Q1f5fgEa29znB05c2sejFsebxJ4u2FQ7K1duPAhtbs52BwtUFBwaNZlkRzqWKWZYVn2ZZ4/vqzyuoUs/G91DEtKp/AaR6Vv5KRzZ5AAAAAElFTkSuQmCC"
+  />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Preconnect and Preload -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -12,6 +34,7 @@
     href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
   />
   <link rel="preload" as="image" href="/TeaZui/assets/bg-main-c0e5f2f8.svg" />
+
   <title>線上寄杯</title>
   <script type="module" crossorigin src="/TeaZui/assets/main-584a099a.js"></script>
   <link rel="stylesheet" href="/TeaZui/assets/main-c30b5578.css">
