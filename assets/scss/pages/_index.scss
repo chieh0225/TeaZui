@@ -59,11 +59,15 @@
   }
 }
 
+.index-latest {
+  background-image: url("/assets/images/bg-brown.png");
+}
+
 .quality-intr {
   h2 {
-    font-size: 38px;
+    font-size: 32px;
     @include desktop {
-      font-size: 38px;
+      font-size: 32px;
     }
   }
   p {
@@ -71,6 +75,10 @@
     @include desktop {
       font-size: 32px;
     }
+  }
+  .leaf {
+    top: -30%;
+    right: 20%;
   }
 }
 
