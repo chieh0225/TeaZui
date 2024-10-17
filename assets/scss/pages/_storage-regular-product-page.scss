@@ -53,6 +53,13 @@
       padding: 8px 80px;
     }
   }
+  .mobile {
+    .card {
+      &:hover .card-img-top {
+        transform: none;
+      }
+    }
+  }
 }
 
 .drink-pick {
@@ -98,6 +105,10 @@
     .card {
       background-color: transparent;
       border: 0;
+      overflow: clip;
+      &:hover .card-img-top {
+        transform: scale(1.1); /* 當 hover 時放大 1.1 倍 */
+      }
     }
     .item-tag {
       padding: 8px;
@@ -118,8 +129,14 @@
       color: #b91c1c;
       background-color: #e2cfcf;
     }
+    .card-img-wrapper {
+      max-height: 306px;
+      overflow: clip;
+    }
     .card-img-top {
+      object-fit: cover;
       border-radius: unset;
+      transition: transform 0.2s ease; /* 平滑過渡 */
     }
     .card-title {
       font-weight: 700;
@@ -127,6 +144,15 @@
     }
     .card-body {
       height: 58.39px;
+    }
+  }
+}
+.drink-pick-section {
+  .mobile {
+    .card {
+      &:hover .card-img-top {
+        transform: none;
+      }
     }
   }
 }

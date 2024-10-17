@@ -36,9 +36,19 @@
     .card {
       background-color: transparent;
       border: 0;
+      overflow: clip;
+      &:hover .card-img-top {
+        transform: scale(1.1); /* 當 hover 時放大 1.1 倍 */
+      }
+    }
+    .card-img-wrapper {
+      max-height: 306px;
+      overflow: clip;
     }
     .card-img-top {
+      object-fit: cover;
       border-radius: unset;
+      transition: transform 0.2s ease; /* 平滑過渡 */
     }
     .card-title {
       letter-spacing: 0.05em;
@@ -84,9 +94,19 @@
     .card {
       background-color: transparent;
       border: 0;
+      overflow: clip;
+      &:hover .card-img-top {
+        transform: scale(1.1); /* 當 hover 時放大 1.1 倍 */
+      }
+    }
+    .card-img-wrapper {
+      max-height: 306px;
+      overflow: clip;
     }
     .card-img-top {
+      object-fit: cover;
       border-radius: unset;
+      transition: transform 0.2s ease; /* 平滑過渡 */
     }
     .card-title {
       letter-spacing: 0.05em;
