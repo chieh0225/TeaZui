@@ -95,12 +95,12 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-      .drinkname::selection,
-      .coming::selection,
-      .cost::selection {
-        color: $second-200; /* 選取文字的顏色 */
-        background-color: $second-400; /* 選取文字的背景顏色 */
-      }
+      // .drinkname::selection,
+      // .coming::selection,
+      // .cost::selection {
+      //   color: $second-200; /* 選取文字的顏色 */
+      //   background-color: $second-400; /* 選取文字的背景顏色 */
+      // }
     }
   }
 }

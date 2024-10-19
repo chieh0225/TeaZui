@@ -1,6 +1,11 @@
 body {
   background-image: url(/assets/images/bg-main.svg);
   background-repeat: repeat;
+  overflow-x: hidden;
+  ::selection {
+    color: $second-200; /* 選取文字的顏色 */
+    background-color: $second-400; /* 選取文字的背景顏色 */
+  }
 }
 .bg-brown {
   background-image: url(/assets/images/bg-brown.png);
