@@ -95,6 +95,12 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
+      .drinkname::selection,
+      .coming::selection,
+      .cost::selection {
+        color: $second-200; /* 選取文字的顏色 */
+        background-color: $second-400; /* 選取文字的背景顏色 */
+      }
     }
   }
 }
@@ -117,5 +123,17 @@
   }
   .coming {
     color: #496a54;
+  }
+}
+
+// 推薦或新品 hover 效果
+.menu-tui svg,
+p {
+  transition: transform 0.2s ease-in-out;
+}
+.menu-list li:hover {
+  svg,
+  p {
+    transform: scale(1.15);
   }
 }
